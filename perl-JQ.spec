@@ -12,6 +12,7 @@ Group:		Development/Languages/Perl
 Source0:	https://github.com/spiritloose/JQ/archive/%{gitref}/%{name}.tar.gz
 # Source0-md5:	b18ab8e3e41b55ee906782471d6791f9
 URL:		https://github.com/spiritloose/JQ
+BuildRequires:	jq-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
