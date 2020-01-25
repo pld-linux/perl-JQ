@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	JQ
 Summary:	JQ - Perl binding for jq
 Name:		perl-JQ
